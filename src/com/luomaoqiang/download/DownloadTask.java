@@ -57,7 +57,7 @@ public class DownloadTask extends AsyncTask<Void, Long, Boolean> {
 		}
 		fileName = mUrl.substring(mUrl.lastIndexOf("/") + 1, mUrl.length());
 		if (fileName.length() >= 64) {
-			fileName = fileName.substring(0, 16);
+			fileName = fileName.substring(0, 16)+fileName.substring(fileName.lastIndexOf(".")-1);
 		}
 		String filePath = mRootPath + "/" + fileName;
 		if (!FileUtl.fileExists(filePath)) {
