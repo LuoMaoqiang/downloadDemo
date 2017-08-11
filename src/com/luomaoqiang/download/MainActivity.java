@@ -10,8 +10,8 @@ import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
 
-	private String url = "http://shouji.360tpcdn.com/170626/3f72146832f2f1d2bb7b93a2df09a287/com.mt.mtxx.mtxx_6751.apk";
-
+	private String url = "http://220.170.49.111/1/u/i/v/m/uivmcmiiwgddknrpltuvfepmvgijlz/he.yinyuetai.com/88CE01595A940BC83C7AB2C616308D62.mp4";
+    String sec_url = "http://shouji.360tpcdn.com/170626/3f72146832f2f1d2bb7b93a2df09a287/com.mt.mtxx.mtxx_6751.apk";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
